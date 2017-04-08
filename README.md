@@ -2,7 +2,6 @@
 # Gulp front-end workflow
 # require: 
 - nodejs
-- ruby sass
 - gulp cli
 
 # install package
