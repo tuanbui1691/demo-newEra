@@ -51,45 +51,53 @@ ol, ul {
 ul.header-menu > li {
   float: left;
   margin-right: 10px; }
-  ul.header-menu > li:last-child {
-    margin-right: 0; }
-  ul.header-menu > li > a {
-    font-size: 13px;
-    color: #000;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    display: inline-block; }
-  ul.header-menu > li.active > a, ul.header-menu > li > a:hover {
-    background-color: #ff3b2f;
-    color: #fff;
-    text-decoration: none; }
+
+ul.header-menu > li:last-child {
+  margin-right: 0; }
+
+ul.header-menu > li > a {
+  font-size: 13px;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block; }
+
+ul.header-menu > li.active > a, ul.header-menu > li > a:hover {
+  background-color: #ff3b2f;
+  color: #fff;
+  text-decoration: none; }
 
 .title-page {
   padding-bottom: 40px; }
-  .title-page .container:before {
-    width: 100%;
-    height: 1px;
-    background-color: #eee; }
-  .title-page h2 {
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 40px;
-    text-align: center;
-    padding: 0 40px; }
+
+.title-page .container:before {
+  width: 100%;
+  height: 1px;
+  background-color: #eee; }
+
+.title-page h2 {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0 40px; }
 
 .portfolio {
   background: #fafafa;
   overflow: hidden; }
-  .portfolio .title-project, .portfolio .slide-project {
-    width: 50%;
-    float: left;
-    position: relative; }
-  .portfolio .title-project {
-    padding: 0 60px;
-    display: table; }
-    .portfolio .title-project .inner {
-      display: table-cell;
-      vertical-align: middle; }
+
+.portfolio .title-project, .portfolio .slide-project {
+  width: 50%;
+  float: left;
+  position: relative; }
+
+.portfolio .title-project {
+  padding: 0 60px;
+  display: table; }
+
+.portfolio .title-project .inner {
+  display: table-cell;
+  vertical-align: middle; }
 
 .portfolio-item {
   float: left; }
@@ -108,9 +116,10 @@ ul.header-menu > li {
   color: #000;
   border-radius: 5px;
   margin-top: 20px; }
-  .load-more:hover {
-    color: #fff;
-    background: #ff3b2f; }
+
+.load-more:hover {
+  color: #fff;
+  background: #ff3b2f; }
 
 .title-project h5 {
   color: #ff3b2f;
@@ -133,23 +142,27 @@ ul.header-menu > li {
 
 .small-block {
   max-width: 80%; }
-  .small-block h2 {
-    margin-bottom: 20px;
-    margin-top: 0px; }
-  .small-block p {
-    margin-bottom: 10px;
-    line-height: 1.5; }
-    .small-block p a.btn {
-      text-transform: uppercase;
-      font-size: 13px;
-      color: #000;
-      padding: 10px 15px;
-      background: #f3f3ef;
-      border-radius: 5px;
-      margin-top: 20px; }
-      .small-block p a.btn:hover {
-        background: #ff3b2f;
-        color: #fff; }
+
+.small-block h2 {
+  margin-bottom: 20px;
+  margin-top: 0px; }
+
+.small-block p {
+  margin-bottom: 10px;
+  line-height: 1.5; }
+
+.small-block p a.btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #000;
+  padding: 10px 15px;
+  background: #f3f3ef;
+  border-radius: 5px;
+  margin-top: 20px; }
+
+.small-block p a.btn:hover {
+  background: #ff3b2f;
+  color: #fff; }
 
 .about-us .background-block {
   border-bottom: 1px solid #ededed; }
@@ -159,11 +172,13 @@ ul.header-menu > li {
 
 .testimonials .wrapper {
   margin-bottom: 30px; }
-  .testimonials .wrapper img.alignleft {
-    width: 140px;
-    margin-right: 20px; }
-  .testimonials .wrapper img.signal {
-    width: 100px; }
+
+.testimonials .wrapper img.alignleft {
+  width: 140px;
+  margin-right: 20px; }
+
+.testimonials .wrapper img.signal {
+  width: 100px; }
 
 .testimonials .clients ul {
   border-left: 1px dashed #ededed;
@@ -172,11 +187,13 @@ ul.header-menu > li {
 .testimonials .clients li {
   padding: 30px 0 30px 30px;
   border-bottom: 1px dashed #e1e1e1; }
-  .testimonials .clients li:first-child {
-    padding-top: 0; }
-  .testimonials .clients li:last-child {
-    border-bottom: none;
-    padding-bottom: 0; }
+
+.testimonials .clients li:first-child {
+  padding-top: 0; }
+
+.testimonials .clients li:last-child {
+  border-bottom: none;
+  padding-bottom: 0; }
 
 .textimponial-author {
   margin-top: 15px;
@@ -214,20 +231,23 @@ ul.header-menu > li {
   padding-left: 30px;
   padding-top: 80px;
   font-size: 12px; }
-  .footer-text h5 {
-    text-transform: uppercase;
-    font-family: arial; }
+
+.footer-text h5 {
+  text-transform: uppercase;
+  font-family: arial; }
 
 .social-icons a {
   display: inline-block;
   opacity: 0.6; }
-  .social-icons a:hover {
-    opacity: 1; }
-  .social-icons a div {
-    width: 20px;
-    height: 20px;
-    background-size: contain;
-    border-radius: 2px; }
+
+.social-icons a:hover {
+  opacity: 1; }
+
+.social-icons a div {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  border-radius: 2px; }
 
 .icon-t {
   background: url(../../images/twitter.png) no-repeat 0 0; }
@@ -256,27 +276,32 @@ ul.header-menu > li {
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); }
-  .footer-form label {
-    color: #000;
-    display: block;
-    margin-bottom: 0; }
-  .footer-form input {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ededed;
-    background: #fff; }
-    .footer-form input[type="submit"] {
-      border: none;
-      background-color: #000;
-      border-radius: 3px;
-      color: #fff;
-      width: auto; }
-      .footer-form input[type="submit"]:hover {
-        background: #ff3b2f; }
-  .footer-form textarea {
-    resize: vertical;
-    width: 100%;
-    min-height: 100px; }
+
+.footer-form label {
+  color: #000;
+  display: block;
+  margin-bottom: 0; }
+
+.footer-form input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ededed;
+  background: #fff; }
+
+.footer-form input[type="submit"] {
+  border: none;
+  background-color: #000;
+  border-radius: 3px;
+  color: #fff;
+  width: auto; }
+
+.footer-form input[type="submit"]:hover {
+  background: #ff3b2f; }
+
+.footer-form textarea {
+  resize: vertical;
+  width: 100%;
+  min-height: 100px; }
 
 .find-our {
   padding: 0 60px; }
@@ -315,9 +340,10 @@ ul.header-menu > li {
   padding: 10px;
   border-radius: 5px;
   background: #000; }
-  .web-design .wrapper .icon span {
-    font-size: 24px;
-    color: #fff; }
+
+.web-design .wrapper .icon span {
+  font-size: 24px;
+  color: #fff; }
 
 .box-text h4 {
   word-break: normal;
@@ -338,18 +364,22 @@ footer {
 .footer-menu {
   padding: 0px;
   margin: 0px; }
-  .footer-menu li {
-    float: left;
-    padding-left: 7px; }
-    .footer-menu li a {
-      padding-top: 3px;
-      text-decoration: none;
-      color: #000; }
-    .footer-menu li:after {
-      content: " / ";
-      padding-left: 5px; }
-  .footer-menu li:last-child::after {
-    content: ""; }
+
+.footer-menu li {
+  float: left;
+  padding-left: 7px; }
+
+.footer-menu li a {
+  padding-top: 3px;
+  text-decoration: none;
+  color: #000; }
+
+.footer-menu li:after {
+  content: " / ";
+  padding-left: 5px; }
+
+.footer-menu li:last-child::after {
+  content: ""; }
 
 #back-top {
   width: 44px;
@@ -362,16 +392,18 @@ footer {
   z-index: 99;
   cursor: pointer;
   display: none; }
-  #back-top:hover .fa {
-    background: rgba(0, 0, 0, 0.8); }
-  #back-top .fa {
-    width: 44px;
-    height: 44px;
-    line-height: 44px;
-    display: block;
-    font-size: 14px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 6px; }
+
+#back-top:hover .fa {
+  background: rgba(0, 0, 0, 0.8); }
+
+#back-top .fa {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  display: block;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px; }
 
 .nav-carousel {
   position: absolute;
@@ -390,8 +422,9 @@ footer {
 
 .carousel-fade .carousel-inner .active {
   opacity: 1; }
-  .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
-    opacity: 0; }
+
+.carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
 
 .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right {
   opacity: 1; }
@@ -457,8 +490,8 @@ footer {
     font-size: 36px;
     text-align: right;
     margin-top: 5px; }
-    header .icon-menu span.fa {
-      cursor: pointer; }
+  header .icon-menu span.fa {
+    cursor: pointer; }
   .content-menu ul.header-menu {
     width: 100%;
     padding: 0;
@@ -469,8 +502,8 @@ footer {
   ul.header-menu > li {
     width: 100%;
     margin-right: 0; }
-    ul.header-menu > li a {
-      width: 100%; }
+  ul.header-menu > li a {
+    width: 100%; }
   .portfolio .title-project,
   .portfolio .slide-project,
   .carousel-inner > .item > img {

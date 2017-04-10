@@ -25,6 +25,7 @@ ol, ul
 
 .marTop
   margin-top: 60px
+  clear: both
 
 .alignleft
   float: left
@@ -61,6 +62,7 @@ ul.header-menu > li
   &.active > a, > a:hover
     background-color: #ff3b2f
     color: #fff
+    text-decoration: none
 
 .title-page
   padding-bottom: 40px
@@ -182,6 +184,9 @@ ul.header-menu > li
 .textimponial-author-small
   margin-top: 0
 
+.testimonials .image-wrapper img
+  margin: 0 auto
+
 .our-work .background-block
   border-top: none
   margin-bottom: 0
@@ -248,7 +253,7 @@ ul.header-menu > li
 .footer-form
   padding: 60px 20px 20px
   background: #fff
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2)
+  +box-shadow(0 4px 20px rgba(0, 0, 0, 0.2))
   label
     color: #000
     display: block
@@ -341,6 +346,8 @@ footer
     &:after
       content: " / "
       padding-left: 5px
+  li:last-child::after
+    content: ""
 
 #back-top
   width: 44px
@@ -348,7 +355,7 @@ footer
   text-decoration: none
   color: #fff
   position: fixed
-  bottom: 25px
+  bottom: 35px
   right: 35px
   z-index: 99
   cursor: pointer

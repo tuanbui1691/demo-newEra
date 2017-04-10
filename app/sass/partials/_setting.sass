@@ -1,0 +1,66 @@
+// Breakpoints
+$screen-sm-min: 768px
+$screen-md-min: 992px
+$screen-lg-min: 1200px
+$screen-xl-min: 1400px
+$screen-xxl-min: 1700px
+
+// Font
+//$font-primary: RobotoRegular
+//$font-secondary: RobotoLight
+//$font-size: 13px
+
+// Colors
+$color-primary: #4f4f4f
+$color-secondary: #fff
+$color-fb-text: #2576bb
+$color-text: #666
+$color-highlight: #999
+$color-background: #fff
+$color-border: #e5e5e5
+$color-error: #f44336
+$color-warning: #ffc107
+$color-notice: #2196f3
+$color-success: #4caf50
+$color-fb-button: #2576bb
+$color-border-chatbot: #d7d7d7
+$color-background-chatbot: #f4f4f4
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+=box-shadow($data)
+  -webkit-box-shadow: $data
+  -moz-box-shadow: $data
+  box-shadow: $data
+
+=transition-all($second, $timing)
+  -webkit-transition: all $second $timing
+  -moz-transition: all $second $timing
+  -ms-transition: all $second $timing
+  -o-transition: all $second $timing
+  transition: all $second $timing
+
+=transformY ($y)
+  -webkit-transform: translate($y)
+  -moz-transform: translateY($y)
+  -ms-transform: translateY($y)
+  -o-transform: translateY($y)
+  transform: translateY($y)
+
+=transformX ($x)
+  -webkit-transform: translateX($x)
+  -moz-transform: translateX($x)
+  -ms-transform: translateX($x)
+  -o-transform: translateX($x)
+  transform: translateX($x)
+
+=transformXY ($x, $y)
+  -webkit-transform: translate($x, $y)
+  -moz-transform: translate($x, $y)
+  -ms-transform: translate($x, $y)
+  -o-transform: translate($x, $y)
+  transform: translate($x, $y)
